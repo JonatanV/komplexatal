@@ -23,7 +23,13 @@ public Complexnumber multiply(Complexnumber z2) {
     Complexnumber z4 = new Complexnumber(a - b, c + d);
     return z4;
 }
+public double args(){
+    double a= this.b/this.a;
+    double b = Math.atan(a);
+    double v =b;
+    return v;
 
+}
 
     @Override
 public String toString(){
