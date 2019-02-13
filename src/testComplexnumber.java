@@ -5,6 +5,11 @@ public class testComplexnumber {
 
         Complexnumber z3= z1.multiply(z2);
         System.out.println(z3);
+         double v = z2.args();
+         System.out.println(v);
+
+
+         System.out.println(z1.equals(z2));
 
     }
 }
